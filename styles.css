@@ -1,0 +1,161 @@
+* {
+    font-family: sans-serif;
+}
+
+
+#nav-bar {
+    background-color: rgb(246, 246, 246);
+    font-weight: bold;
+    top: 0px;
+    text-align: right;
+    padding:  50px;
+    position: sticky;
+    z-index: 999;
+    margin-top: 10px;
+
+}
+
+li {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.nav-link{
+    float:none;
+    color: #000000;
+    text-align: center;
+    padding: 16px 22px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+
+}
+
+.nav-link:active {
+
+}
+
+#email {
+    align-self: center;
+    padding: 16px;
+}
+  
+.product-name {
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    padding: 25px;
+}
+
+.product-desc {
+    text-align: center;
+    display: inline-block;
+
+}
+
+.product-box {
+    text-align: center;
+}
+
+.emailupdate {
+    margin: 10px;
+    padding: 16px;
+    background-color: orange;
+    border-style: none;
+    font-weight: 700;
+    transition-duration: 0.5s;
+}
+
+.emailupdate:hover {
+    cursor: pointer;
+    background-color: #f59911;
+}
+
+.emailupdate:active {
+
+}
+
+.emailprompt {
+
+
+    background: linear-gradient(
+        rgb(235, 176, 67) 50%,
+        rgb(238, 218, 173)
+      );
+
+      padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 15px;
+}
+
+.center, figcaption, .title {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+}
+
+iframe {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    p {
+      font-size: 12px;
+    }
+  }
+
+  a {
+    color: rgb(213, 131, 15);
+    text-decoration: none;
+
+  }
+  
+  a:hover {
+    color: #e68e0a;
+  }
+
+  a:active {
+    color: #b04c00;
+  }
+
+
+  footer {
+    border: 1px solid rgb(246, 246, 246);
+background-color: rgb(246, 246, 246);
+    bottom: 0;
+  }
+  
+  .footer {
+    padding: 16px;
+    font-weight: 100;
+    text-align: right;
+  }
+
+
+  .buy {
+    background-color: rgb(246, 246, 246);
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 64px;
+  }
+
+  figcaption {
+    padding: 6px;
+  }
